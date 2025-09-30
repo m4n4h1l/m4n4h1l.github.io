@@ -1,0 +1,111 @@
+.intro-connect-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.intro-connect-links a {
+  color: var(--color-text-accent);
+  transition: transform 0.2s ease-out;
+}
+
+.intro-connect-links a:hover, .intro-connect-links a:focus {
+  color: var(--color-text-accent-darker);
+  transform: translateY(-3px);
+}
+
+.intro-connect-links .fa-brands, .footer-social-links .fa-brands {
+  font-size: 28px;
+}
+
+.footer-social-links .fa-brands {
+  font-size: 24px;
+}
+
+.footer-connect {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.footer-title {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: var(--color-text-white);
+  margin: 0 0 0.75em 0;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.connect-text {
+  max-width: 65ch;
+  margin: 0 auto 1.5em auto;
+  line-height: 1.6;
+  font-size: 1.05em;
+  opacity: 0.9;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.footer-social-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em 1.2em;
+  border: 1px solid rgba(219, 112, 147, 0.3);
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.footer-social-links a:hover, .footer-social-links a:focus {
+  background-color: rgba(219, 112, 147, 0.2);
+  border-color: rgba(219, 112, 147, 0.5);
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid rgba(219, 112, 147, 0.3);
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.polaroid-frame {
+  background-color: var(--color-bg-section);
+  border: 2.5px solid var(--color-border-section);
+  padding: 15px 15px 60px 15px;
+  box-shadow: 3px 3px 8px var(--color-shadow-card);
+  width: 200px;
+  transform: rotate(2.5deg);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.polaroid-frame:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 5px 5px 12px var(--shadow-card);
+  z-index: 10;
+}
+
+.polaroid-frame img {
+  width: 100%;
+  display: block;
+  border: 1px solid #ddd;
+}
+
+.polaroid-caption {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 15px 0 0 0;
+  font-family: var(--font-handwritten);
+}
+
